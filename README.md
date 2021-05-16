@@ -3,7 +3,7 @@
 [![pytorch-image]][pytorch-url]
 [![lic-image]][lic-url]
 
-This project aims at providing a concise, easy-to-use, modifiable reference implementation for semantic segmentation models using PyTorch.
+This repository is created for mid-term project of DATA620004, Fudan University. The main part of the code is forked from https://github.com/Tramac/awesome-semantic-segmentation-pytorch, which implements a various of advanced deep learning models for the sematic segmentation task in pytorch,and we make some changes to solve errors raising from version conflicts and to use tensorboard to vasualize the results. For our mid-term project, we train the BiSeNet model on cityscapes supervised by different loss functions and try to explore the influence brought by them. For the simplicity of reproduce, we will introduce how to install the package, how to train and evaluate the model as follows.
 
 <p align="center"><img width="100%" src="docs/weimar_000091_000019_gtFine_color.png" /></p>
 
